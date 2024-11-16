@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - master # The branch name where new changes are committed
-
+env:
+    CI: false
 jobs:
   build:
     runs-on: ubuntu-latest
